@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.form-group-patrimonio label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #666666;
+    font-size: 14px;
+}
+
+
+.form-group-patrimonio input {
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+
+.btn-patrimonio {
+    width: 120px;
+    height: 50px;
+    padding: 12px;
+    background-color: #002060;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 665px;
+    margin-left: 1280px;
+}

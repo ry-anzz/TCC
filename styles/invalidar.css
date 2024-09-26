@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.main-content-patrimonio>* {
+    margin-bottom: 20px;
+    /* Espaçamento padrão entre todos os elementos */
+}
+
+.form-group-patrimonio {
+    margin-bottom: 50px;
+}
+
+.form-group-patrimonio label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #666666;
+    font-size: 14px;
+}
+
+.form-group-patrimonio input,
+.form-group-patrimonio select {
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.form-group-patrimonio #descricao {
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.image-placeholder-patrimonio {
+    width: 700px;
+    height: 500px;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #D4A518;
+    margin-top: -600px;
+    margin-left: 50%;
+}
+
+.image-placeholder-patrimonio span {
+    font-size: 48px;
+    color: #002060;
+}
+
+.btn-patrimonio {
+    width: 120px;
+    height: 50px;
+    padding: 12px;
+    background-color: #002060;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 615px;
+    margin-left: 1280px;
+}
+
+.btn-patrimonio:hover {
+    background-color: #003f8a;
+}
